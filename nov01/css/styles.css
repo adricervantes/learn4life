@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html {
+  background-color: rgb(231, 231, 231);
+}
 
 header {
   background-image: url(../img/banner.jpg);
@@ -10,4 +16,58 @@ header {
 
 h1 {
   font-family: 'Pacifico', cursive;
+  font-size: 62px;
+  font-weight: 400;
+  margin: 0;
+}
+
+hr {
+  width: 50%;
+}
+
+p {
+  font-family: 'Proza Libre', sans-serif;
+  text-transform: uppercase;
+  color: rgb(196, 196, 196);
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+a {
+  color:rgb(196, 196, 196);
+  text-decoration: none;
+  margin: 0;
+  border-bottom: 1px dotted rgb(196, 196, 196);
+}
+
+a:hover {
+  color: rgb(241, 100, 100);
+  border: none;
+}
+
+/*MIDDLE SECTION*/
+
+.middle {
+  text-align: center;
+  background-color: white;
+  height: 500px;
+  margin-top: 70px;
+  margin-left: 175px;
+  width: 75%;
+}
+
+.fa-diamond {
+  border: 2px solid rgb(86, 86, 87);
+  border-radius: 80%;
+  color: rgb(86, 86, 87);
+  font-size: 42px;
+  padding: 30px;
+  margin-top: 90px;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(86, 86, 87);
+  font-size: 30px;
+  font-weight: lighter;
 }
