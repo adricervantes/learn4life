@@ -1,0 +1,31 @@
+body {
+  background-color: teal;
+  margin: 0;
+}
+
+nav {
+  background-color: orange;
+  padding: 0 15px 0 10px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  background-color: black;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+nav a:hover {
+  transition: 
+  transform: rotate(360deg);
+}
