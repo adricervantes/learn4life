@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Proza+Libre');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+body {
+  margin: 0;
+}
+
 html {
   background-color: rgb(231, 231, 231);
 }
@@ -25,7 +29,7 @@ hr {
   width: 50%;
 }
 
-p {
+#head {
   font-family: 'Proza Libre', sans-serif;
   text-transform: uppercase;
   color: rgb(196, 196, 196);
@@ -68,6 +72,29 @@ a:hover {
 h2 {
   font-family: 'Ubuntu', sans-serif;
   color: rgb(86, 86, 87);
-  font-size: 30px;
+  font-size: 35px;
   font-weight: lighter;
+}
+
+#magna {
+  color: rgb(86, 86, 87);
+  font-family: 'Proza Libre', sans-serif;
+  margin-left: 305px;
+  margin-top: 30px;
+  width: 40%;
+  margin-bottom: 40px;
+}
+
+#learn {
+  border: 2px solid rgb(86, 86, 87);
+  border-radius: 4px;
+  color: rgb(86, 86, 87);
+  font-family: 'Proza Libre', sans-serif;
+  margin-top: 20px;
+  padding: 13px;
+}
+
+#learn:hover {
+  border: 2px solid rgb(241, 100, 100);
+  color: rgb(241, 100, 100);
 }
