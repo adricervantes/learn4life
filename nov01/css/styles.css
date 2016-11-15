@@ -31,6 +31,7 @@ hr {
 
 #head {
   font-family: 'Proza Libre', sans-serif;
+  letter-spacing: 0.325rem;
   text-transform: uppercase;
   color: rgb(196, 196, 196);
   margin-top: 20px;
@@ -74,6 +75,7 @@ h2 {
   color: rgb(86, 86, 87);
   font-size: 35px;
   font-weight: lighter;
+  letter-spacing: 0.325rem;
 }
 
 #magna {
@@ -92,9 +94,27 @@ h2 {
   font-family: 'Proza Libre', sans-serif;
   margin-top: 20px;
   padding: 13px;
+  letter-spacing: 0.325rem;
 }
 
 #learn:hover {
   border: 2px solid rgb(241, 100, 100);
   color: rgb(241, 100, 100);
+}
+
+.pic1 {
+  background-image: url('../img/pic01.jpg');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 30%;
+  margin-left: 175px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.325rem;
+  text-align: center;
 }
