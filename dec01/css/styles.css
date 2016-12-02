@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+#simple {
+  background-image: url('../img/ipad-landscape.jpg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#simple::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+#simple div {
+  box-sizing: border-box;
+  width: 50%;
+  float: right;
+  padding: 25px;
+}
+
+hr {
+  float: left;
+  width: 50px;
+}
+
+#simple a {
+  text-transform: uppercase;
+  font-size: 80%;
+}

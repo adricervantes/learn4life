@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+#mac {
+  text-align: center;
+}
+
+#img {
+  background-image: url('../img/macbook-pro.png');
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-left: 85px;
+}
+
+#mac a {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  text-decoration: none;
+}
