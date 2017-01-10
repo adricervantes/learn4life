@@ -1,0 +1,30 @@
+html {
+  background-color: purple;
+}
+
+header {
+  background-color: hsla(0, 0%, 21%, 0.55);
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+ul {
+  display:flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  
+}

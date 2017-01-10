@@ -1,0 +1,17 @@
+section {
+  width: calc(100% / 3);
+}
+
+.first {
+  width: calc(100% / 3);
+}
+
+section.second {
+  width: calc(100% / 3);
+  float: right;
+}
+
+section.third {
+  width: calc(100% / 3);
+  float: right;
+}
