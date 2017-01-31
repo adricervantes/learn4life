@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+section {
+  width: 60%;
+  margin-left: 5%;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+h1,h3 {
+  text-transform: uppercase;
+}
+
+aside {
+  width: 30%;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  padding-top:20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  display: inline-block;
+  padding: 5px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.aside-img {
+  float: left;
+  margin-right: 10px;
+}
+
+h6 {
+  color: hsl(0, 0%, 67%);
+  margin-bottom: 0;
+  margin-top: 10%;
+}
