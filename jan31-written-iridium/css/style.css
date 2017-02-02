@@ -5,6 +5,45 @@ body {
   font-family: 'Arimo', sans-serif;
 }
 
+.header {
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0 auto;
+  height: 500px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 62px;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 div {
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +55,7 @@ section {
   margin-left: 5%;
 }
 
-h1{
+h2{
   margin-bottom: 0;
 }
 
@@ -24,7 +63,7 @@ h4 {
   margin-top: 0;
 }
 
-h1,h3 {
+h2,h3 {
   text-transform: uppercase;
 }
 
@@ -32,12 +71,13 @@ aside {
   width: 30%;
 }
 
-li {
+.right {
   list-style: none;
   font-size: 14px;
   padding-top:20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  text-transform: none;
 }
 
 p {
